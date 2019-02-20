@@ -1,9 +1,10 @@
+/*BASE STYLES*/
 * {
     font-family: "Helvetica Neue", Arial, sans-serif;
 }
-
+/*HEADER STYLES*/
 h3 {
-    color: #1B75BB;    
+    color: #1B75BB;  
 }
 
 span {
@@ -15,4 +16,9 @@ p {
 }
 .btn-pod{
     font-size: 13px;
+}
+
+#subtitle{
+    font-weight: 20px;
+    letter-spacing: 1px;
 }
