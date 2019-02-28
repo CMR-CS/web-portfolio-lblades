@@ -1,0 +1,56 @@
+nav ul{
+    list-style: none;
+}
+
+
+
+*{
+    font-family:monospace;
+}
+main{
+    border-radius: 10px;
+    clear: left;
+    padding-top: 20px;
+}
+h1{
+    font-size: 50px
+}
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    border-radius: 100px;
+}
+ul{
+    font-size: 25px;
+}
+main p::first-letter{
+    font-size: 30px;
+    font-style: oblique;
+}
+/* navigation menu styles*/
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    margin-right: 0.5em;
+}
+nav ul li a{
+    padding: 0.25em 1em;
+    text-decoration: none; /* no underline*/
+    background-color: aquamarine; /* pale white*/
+    color: aqua; /* dark blue */
+    border: 2px solid coral;
+}
+nav ul li a:hover, nav ul li a:focus {
+    color: white;
+    background-color: coral;
+    font-weight: bold;
+}
+a:visited{
+    color: blueviolet;
+}
