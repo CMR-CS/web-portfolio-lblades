@@ -44,6 +44,13 @@ nav li a{
     line-height: 3em;
     text-align: center;
     font-size: 2em;
+    border: 2px solid black;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    color: black;
+    background-color: whitesmoke;
+    font-weight: bold;
 }
 
 footer {
