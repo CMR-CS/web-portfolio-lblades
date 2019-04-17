@@ -2,8 +2,6 @@ nav ul{
     list-style: none;
 }
 
-
-
 *{
     font-family:monospace;
 }
@@ -43,7 +41,7 @@ nav ul li a{
     padding: 0.25em 1em;
     text-decoration: none; /* no underline*/
     background-color: aquamarine; /* pale white*/
-    color: aqua; /* dark blue */
+    color: green; /* dark blue */
     border: 2px solid coral;
 }
 nav ul li a:hover, nav ul li a:focus {
